@@ -23,243 +23,219 @@ import {
     jobit,
     tripguide,
     threejs,
-} from "../assets";
+  } from "../assets";
   
-export const navLinks = [
+  export const navLinks = [
     {
-        id: "about",
-        title: "About",
+      id: "about",
+      title: "About",
     },
     {
-        id: "work",
-        title: "Work",
+      id: "work",
+      title: "Work",
     },
     {
-        id: "contact",
-        title: "Contact",
+      id: "contact",
+      title: "Contact",
     },
-];
+  ];
   
-const services = [
+  const services = [
     {
-        title: "Web Developer",
-        icon: web,
+      title: "Full Stack Developer",
+      icon: web,
     },
     {
-        title: "React Native Developer",
-        icon: mobile,
+      title: "React Developer",
+      icon: mobile,
     },
     {
-        title: "Backend Developer",
-        icon: backend,
+      title: "Android Developer",
+      icon: backend,
     },
     {
-        title: "Content Creator",
-        icon: creator,
+      title: "Mentor & Team Collaborator",
+      icon: creator,
     },
-];
+  ];
   
-const technologies = [
+  const technologies = [
     {
-        name: "HTML 5",
-        icon: html,
+      name: "HTML 5",
+      icon: html,
     },
     {
-        name: "CSS 3",
-        icon: css,
+      name: "CSS 3",
+      icon: css,
     },
     {
-        name: "JavaScript",
-        icon: javascript,
+      name: "JavaScript",
+      icon: javascript,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
+      name: "TypeScript",
+      icon: typescript,
     },
     {
-        name: "React JS",
-        icon: reactjs,
+      name: "React JS",
+      icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
+      name: "Redux Toolkit",
+      icon: redux,
     },
     {
-        name: "Tailwind CSS",
-        icon: tailwind,
+      name: "Tailwind CSS",
+      icon: tailwind,
     },
     {
-        name: "Node JS",
-        icon: nodejs,
+      name: "Node JS",
+      icon: nodejs,
     },
     {
-        name: "MongoDB",
-        icon: mongodb,
+      name: "MongoDB",
+      icon: mongodb,
     },
     {
-        name: "Three JS",
-        icon: threejs,
+      name: "Three JS",
+      icon: threejs,
     },
     {
-        name: "git",
-        icon: git,
+      name: "git",
+      icon: git,
     },
     {
-        name: "figma",
-        icon: figma,
+      name: "figma",
+      icon: figma,
     },
     {
-        name: "docker",
-        icon: docker,
+      name: "docker",
+      icon: docker,
     },
-];
+  ];
   
-const experiences = [
+  const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+      title: "Full Stack Developer",
+      company_name: "BirgeChat",
+      icon: meta,
+      iconBg: "#E6DEDD",
+      date: "Dec 2023 – Apr 2024",
+      points: [
+        "Built a social media app using MERN stack.",
+        "Integrated real-time chat with Socket.io and JWT authentication.",
+        "Implemented post features, media uploads, and responsive design.",
+      ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+      title: "Front-End Developer",
+      company_name: "Neobis Studio",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "Mar 2021 – Jun 2022",
+      points: [
+        "Developed MVPs using React, Redux, Webpack for NeoCafe, NeoFin, Trada.",
+        "Built admin panel, real-time order management UI, and financial tracking tools.",
+        "Mentored interns and collaborated with cross-functional teams.",
+      ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+      title: "Android Developer Intern",
+      company_name: "O! Mobile Operator",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "Sep 2020 – Feb 2021",
+      points: [
+        "Developed an Android checklist app in Kotlin and Java.",
+        "Improved efficiency across telecom branches.",
+        "Delivered production-ready app during 6-month internship.",
+      ],
     },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-];
+  ];
   
-const testimonials = [
+  const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Kairatbek demonstrated leadership and mentorship during his time at Neobis Studio. A true team player.",
+      name: "Mentor, Neobis Studio",
+      designation: "Team Lead",
+      company: "Neobis",
+      image: "https://randomuser.me/api/portraits/men/45.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "His MERN stack skills are top-notch. Our BirgeChat project wouldn’t have succeeded without him.",
+      name: "Project Manager",
+      designation: "PM",
+      company: "BirgeChat",
+      image: "https://randomuser.me/api/portraits/women/65.jpg",
     },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-];
+  ];
   
-const projects = [
+  const projects = [
     {
-        name: "Car Rent",
-        description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+      name: "BirgeChat",
+      description:
+        "A full-stack social media platform with real-time chat, post sharing, and profile features, inspired by Instagram.",
+      tags: [
+        {
+          name: "MERN",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "socket.io",
+          color: "green-text-gradient",
+        },
+        {
+          name: "jwt",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/",
     },
     {
-        name: "Job IT",
-        description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+      name: "NeoCafe",
+      description:
+        "Frontend interface for coffee shop staff with real-time order tracking, developed as part of Neobis Studio.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "webpack",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://github.com/",
     },
     {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+      name: "O! Checklist App",
+      description:
+        "An internal Android checklist application developed using Java and Kotlin during internship at O! Mobile Operator.",
+      tags: [
+        {
+          name: "kotlin",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "java",
+          color: "green-text-gradient",
+        },
+        {
+          name: "android",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
     },
-];
+  ];
   
-export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects };  
