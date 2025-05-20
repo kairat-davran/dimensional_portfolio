@@ -22,6 +22,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  birgeChat,
+  crewcontrol,
+  lookkg,
+  mobileTemp,
+  webTemp
 } from "../assets";
 
 export const navLinks = [
@@ -123,6 +128,14 @@ const testimonials = [
     company: "BirgeChat Team",
     image: "https://randomuser.me/api/portraits/women/51.jpg",
   },
+  {
+    testimonial:
+      "At Neobis, Kairatbek stood out for his mentorship and his ability to deliver clean, production-ready code under tight deadlines.",
+    name: "Senior Developer",
+    designation: "Frontend Lead",
+    company: "Neobis Studio",
+    image: "https://randomuser.me/api/portraits/men/37.jpg",
+  },
 ];
 
 const projects = [
@@ -136,7 +149,7 @@ const projects = [
       { name: "React Native", color: "pink-text-gradient" },
       { name: "PostgreSQL", color: "green-text-gradient" },
     ],
-    image: carrent,
+    image: crewcontrol,
     source_code_link: "https://github.com/kairat-davranbek/LandscapeCrewSystem",
   },
   {
@@ -149,7 +162,7 @@ const projects = [
       { name: "React", color: "blue-text-gradient" },
       { name: "Node.js", color: "green-text-gradient" },
     ],
-    image: jobit,
+    image: lookkg,
     source_code_link: "https://github.com/kairat-davranbek/look.kg",
   },
   {
@@ -161,7 +174,7 @@ const projects = [
       { name: "Socket.io", color: "green-text-gradient" },
       { name: "JWT", color: "pink-text-gradient" },
     ],
-    image: tripguide,
+    image: birgeChat,
     source_code_link: "https://github.com/kairat-davranbek/birgechat",
   },
   {
@@ -173,7 +186,7 @@ const projects = [
       { name: "Redux", color: "green-text-gradient" },
       { name: "Webpack", color: "pink-text-gradient" },
     ],
-    image: jobit,
+    image: webTemp,
     source_code_link: "https://github.com/neocafeteam2autumn2021/frontend",
   },
   {
@@ -184,7 +197,7 @@ const projects = [
       { name: "React", color: "blue-text-gradient" },
       { name: "Redux", color: "green-text-gradient" },
     ],
-    image: tripguide,
+    image: webTemp,
     source_code_link: "https://github.com/fms-team1/frontend",
   },
   {
@@ -196,7 +209,7 @@ const projects = [
       { name: "Java", color: "green-text-gradient" },
       { name: "Android", color: "pink-text-gradient" },
     ],
-    image: tripguide,
+    image: mobileTemp,
     source_code_link: "https://gitlab.com/kairatbek_d/checksheet",
   },
   {
@@ -207,7 +220,7 @@ const projects = [
       { name: "React", color: "blue-text-gradient" },
       { name: "Bootstrap", color: "green-text-gradient" },
     ],
-    image: carrent,
+    image: webTemp,
     source_code_link: "https://gitlab.com/team1.summer2021/Frontend",
   },
 ];

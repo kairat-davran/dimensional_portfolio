@@ -28,11 +28,17 @@ import tesla from "./company/tesla.png";
 
 import mega from "./company/mega.jpeg";
 import neobis from "./company/neobis.jpeg";
-import OMobile from "./company/O!Mobile.";
+import OMobile from "./company/O!Mobile.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import birgeChat from "./birgeChat.png";
+import crewcontrol from "./crewcontrol.png";
+import lookkg from "./lookkg.png";
+import mobileTemp from "./mobileTemp.jpg";
+import webTemp from "./webTemp.jpg";
 
 export {
   logo,
@@ -66,4 +72,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  birgeChat,
+  crewcontrol,
+  lookkg,
+  mobileTemp,
+  webTemp
 };
