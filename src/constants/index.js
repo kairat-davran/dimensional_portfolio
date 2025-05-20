@@ -15,10 +15,9 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  mega,
+  neobis,
+  OMobile,
   carrent,
   jobit,
   tripguide,
@@ -96,7 +95,7 @@ const experiences = [
   {
     title: "Android Developer Intern",
     company_name: "O! Mobile Operator",
-    icon: "O!Mobile",
+    icon: OMobile,
     iconBg: "#E6DEDD",
     date: "Sep 2020 – Feb 2021",
     points: [
