@@ -26,9 +26,9 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import mega from "./company/mega.png";
-import neobis from "./company/neobis.png";
-import OMobile from "./company/O!Mobile.png";
+import mega from "./company/mega.jpeg";
+import neobis from "./company/neobis.jpeg";
+import OMobile from "./company/O!Mobile.";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
