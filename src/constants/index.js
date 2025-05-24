@@ -80,7 +80,7 @@ const experiences = [
     points: [
       "Built and maintained 3 full-scale apps: LandscapeCrewSystem, Look.kg, and BirgeChat.",
       "Used Django REST, React.js, React Native, and MERN stack with PostgreSQL multi-tenancy.",
-      "Integrated LangChain + OpenAI and implemented real-time features with Socket.io.",
+      "Implemented real-time features with Socket.io and developed a chatbot using OpenAI",
       "Managed CI/CD pipelines, Docker deployments, and documentation.",
       "Worked cross-functionally to ensure UX consistency across platforms.",
     ],
@@ -90,7 +90,7 @@ const experiences = [
     company_name: "Neobis Studio",
     icon: neobis,
     iconBg: "#383E56",
-    date: "Jan 2021 – Dec 2022",
+    date: "Jan 2021 – Dec 2021",
     points: [
       "Built MVP frontends for NeoCafe, NeoFin, and Trada using React, Redux, Webpack.",
       "Created admin dashboards, order tracking UIs, and health tracking tools.",
@@ -150,7 +150,7 @@ const projects = [
       { name: "PostgreSQL", color: "green-text-gradient" },
     ],
     image: crewcontrol,
-    source_code_link: "https://github.com/kairat-davranbek/LandscapeCrewSystem",
+    source_code_link: "https://github.com/kairat-davran/LandscapeCrewSystem",
   },
   {
     name: "Look.kg",
@@ -163,7 +163,7 @@ const projects = [
       { name: "Node.js", color: "green-text-gradient" },
     ],
     image: lookkg,
-    source_code_link: "https://github.com/kairat-davranbek/look.kg",
+    source_code_link: "https://github.com/kairat-davran/look.kg",
   },
   {
     name: "BirgeChat",
@@ -175,7 +175,7 @@ const projects = [
       { name: "JWT", color: "pink-text-gradient" },
     ],
     image: birgeChat,
-    source_code_link: "https://github.com/kairat-davranbek/birgechat",
+    source_code_link: "https://github.com/kairat-davran/birgechat",
   },
   {
     name: "NeoCafe",
